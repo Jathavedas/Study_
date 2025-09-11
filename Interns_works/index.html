@@ -3,47 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Independence Day Tribute</title>
-   <link rel="stylesheet" href="style.css">
+    <title>Jathavedas - Full Stack Developer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <style>
+
+    </style>
 </head>
 <body>
-<video autoplay loop muted style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; object-fit: cover; z-index: -1;">
-    <source src="https://cdn.pixabay.com/video/2022/08/22/128734-742053565_large.mp4" type="video/mp4">
-    Your browser does not support HTML5 video.
-</video>
-    <div class="container">
-        <h1>Happy Independence Day </h1>
-
-        <p>
-            August 15th is celebrated as India's Independence Day, commemorating the nation's independence from the United Kingdom on this day in 1947. This day marks the end of British rule and the establishment of a free and sovereign Indian nation. It is a day of national pride, celebrated with flag-hoisting ceremonies, parades, and cultural events across the country.
-        </p>
-
-        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" alt="Indian Flag" class="flag-img">
-
-        <div class="freedom-fighters">
-            <h2>Our Freedom Fighters</h2>
-            <ul>
-                <li>
-                    <strong>Mahatma Gandhi:</strong> The leader of India's non-violent independence movement against British rule, known for his philosophy of 'Satyagraha'.
-                </li>
-                <li>
-                    <strong>Jawaharlal Nehru:</strong> The first Prime Minister of India, a key leader of the Indian National Congress and a central figure in the independence struggle.
-                </li>
-                <li>
-                    <strong>Subhas Chandra Bose:</strong> A revolutionary nationalist who challenged Gandhi's non-violent methods and founded the Indian National Army (INA) to fight the British.
-                </li>
-                <li>
-                    <strong>Bhagat Singh:</strong> A charismatic socialist revolutionary who played a significant role in the Indian independence movement and was executed by the British at a young age.
-                </li>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">Jathavedas</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
+    </nav>
 
-        <blockquote>
-            <p>"Freedom is not worth having if it does not include the freedom to make mistakes."</p>
-            <footer>— Mahatma Gandhi</footer>
-        </blockquote>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Jathavedas</h1>
+            <p class="subtitle">Full Stack Developer & PG Student</p>
+            <p class="description">Crafting digital experiences with modern technologies. Specializing in MERN stack development with a passion for problem-solving and innovation.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
 
-    </div>
+    <!-- About Section -->
+    <section id="about" class="section section-dark">
+        <h2 class="fade-in">About Me</h2>
+        <div class="skills-grid fade-in">
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Problem Solver</h3>
+                <p>Passionate about breaking down complex problems into elegant, efficient solutions through analytical thinking and creative approaches.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>Backend Development</h3>
+                <p>Expertise in Python, Django, Node.js, Express, and NestJS with database management using MySQL and MongoDB.</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3>Frontend Development</h3>
+                <p>Creating responsive and interactive user interfaces using JavaScript, React, and modern frontend technologies.</p>
+            </div>
+        </div>
 
+        <div class="tech-stack fade-in">
+            <div class="tech-tag">Python</div>
+            <div class="tech-tag">Django</div>
+            <div class="tech-tag">JavaScript</div>
+            <div class="tech-tag">React</div>
+            <div class="tech-tag">Node.js</div>
+            <div class="tech-tag">Express</div>
+            <div class="tech-tag">NestJS</div>
+            <div class="tech-tag">MySQL</div>
+            <div class="tech-tag">MongoDB</div>
+            <div class="tech-tag">MERN Stack</div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section section-light">
+        <h2 class="fade-in">Experience</h2>
+        <div class="experience-card fade-in">
+            <div class="company-name">Corestone Innovations</div>
+            <div class="role">Full Stack Developer</div>
+            <div class="duration">Present</div>
+            <p>Contributing to innovative projects and developing scalable web applications using modern technology stacks. Collaborating with cross-functional teams to deliver high-quality software solutions.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-dark">
+        <h2 class="fade-in">Featured Projects</h2>
+        <div class="projects-grid fade-in">
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">JARVIS</h3>
+                    <p class="project-description">An intelligent virtual assistant application built with advanced AI capabilities. Features voice recognition, natural language processing, and task automation.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>AI/ML</span>
+                        <span>Speech Recognition</span>
+                        <span>NLP</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-truck"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">SAHACHARI</h3>
+                    <p class="project-description">All-in-one delivery application providing seamless delivery services. Features real-time tracking, multi-vendor support, and comprehensive order management.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Express</span>
+                        <span>Real-time</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-map-marked-alt"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">GOKERALA</h3>
+                    <p class="project-description">Tourism and travel platform showcasing the beauty of Kerala. Features destination guides, booking systems, and interactive travel planning tools.</p>
+                    <div class="project-tech">
+                        <span>Django</span>
+                        <span>Python</span>
+                        <span>MySQL</span>
+                        <span>JavaScript</span>
+                        <span>Maps API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-light">
+        <h2 class="fade-in">Get In Touch</h2>
+        <p style="text-align: center; margin-bottom: 2rem; font-size: 1.1rem; color: #666;" class="fade-in">
+            Let's collaborate on your next project or discuss opportunities in web development.
+        </p>
+        <div class="contact-grid fade-in">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <h4>Email</h4>
+                <a href="mailto:jathavedas@example.com">jathavedas@example.com</a>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <h4>LinkedIn</h4>
+                <a href="https://linkedin.com/in/jathavedas" target="_blank">linkedin.com/in/jathavedas</a>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <h4>GitHub</h4>
+                <a href="https://github.com/jathavedas" target="_blank">github.com/jathavedas</a>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <h4>Phone</h4>
+                <a href="tel:+91XXXXXXXXXX">+91 XXXX-XXXX-XX</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js">
+        
+    </script>
 </body>
 </html>
